@@ -79,7 +79,7 @@ export const OTPDisplay: React.FC<OTPDisplayProps> = ({ secret }) => {
 
             <div className="flex gap-3">
                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-slate-800 flex items-center justify-center text-xs font-bold text-indigo-400 border border-slate-700">3</span>
-               <p>Bước 3: Nhấn submit copy 6 số cuối để lấy mã.</p>
+               <p>Bước 3: Nhấn submit => copy 6 số cuối để lấy mã.</p>
             </div>
           </div>
         </div>
