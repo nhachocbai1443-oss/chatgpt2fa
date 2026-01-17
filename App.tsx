@@ -103,7 +103,7 @@ const App: React.FC = () => {
             disabled={isLoading}
             className="w-full bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-indigo-500/25 transition-all transform hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2 group disabled:opacity-70 disabled:cursor-not-allowed"
           >
-            {isLoading ? 'Connecting...' : 'Login'}
+            {isLoading ? 'Connecting...' : 'Access Dashboard'}
             {!isLoading && <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />}
           </button>
         </form>
